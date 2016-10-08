@@ -1,0 +1,33 @@
+{
+  "name": "express-redux",
+  "version": "0.0.1",
+  "description": "Middleware that instantiates a redux store and allows you to dispatch to it in express routes",
+  "main": "index.js",
+  "scripts": {
+    "compile": "rm -rf dist/; babel --plugins transform-runtime -d dist/ src/",
+    "test": "ava --tap | tap-spec"
+  },
+  "author": "masotime@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.7.1",
+    "express": "^4.14.0",
+    "redux": "^3.6.0",
+    "supertest": "^2.0.0",
+    "supertest-as-promised": "^4.0.0",
+    "supertest-promised": "^1.0.0",
+    "tap-spec": "^4.1.1"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ],
+    "concurrency": 5
+  }
+}
