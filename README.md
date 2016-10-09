@@ -6,7 +6,7 @@ Adds a middleware that augments an existing express application with the ability
 * dispatch and retrieve state from the store
 * get the set of actions that have been dispatched so far
 
-Although this module is designed to work with redux, it really only requires some interfaces to work.
+Although this module is designed to work with redux and express, it really only requires some interfaces to work. Hence, it doesn't have any hard dependencies.
 
 ## Usage
 

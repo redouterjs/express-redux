@@ -1,13 +1,21 @@
 {
   "name": "express-redux",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Middleware that instantiates a redux store and allows you to dispatch to it in express routes",
   "main": "index.js",
   "scripts": {
     "compile": "rm -rf dist/; babel --plugins transform-runtime -d dist/ src/",
     "test": "ava --tap | tap-spec"
   },
-  "author": "masotime@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:redouterjs/express-redux.git"
+  },
+  "keywords": [
+    "express",
+    "redux"
+  ],
+  "author": "Benjamin Goh <masotime@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "ava": "^0.16.0",
