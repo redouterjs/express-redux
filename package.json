@@ -1,8 +1,8 @@
 {
   "name": "express-redux",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware that instantiates a redux store and allows you to dispatch to it in express routes",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "compile": "rm -rf dist/; babel --plugins transform-runtime -d dist/ src/",
     "test": "ava --tap | tap-spec"
