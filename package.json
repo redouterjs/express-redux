@@ -1,6 +1,6 @@
 {
   "name": "express-redux",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Middleware that instantiates a redux store and allows you to dispatch to it in express routes",
   "main": "dist/index.js",
   "scripts": {
