@@ -22,7 +22,7 @@ Although this module is designed to work with redux and express, it really only 
 ## Usage
 
 ```
-  import expressRedux from 'expressRedux';
+  import expressRedux from 'express-redux';
   import { createStore } from 'redux';
 
   const app = express();
